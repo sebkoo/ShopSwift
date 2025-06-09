@@ -40,11 +40,6 @@
 			path = ShopSwiftTests;
 			sourceTree = "<group>";
 		};
-		F10E722F2DF77F6D0035A1A2 /* ShopSwiftUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ShopSwiftUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +72,6 @@
 			children = (
 				F10E72172DF77F680035A1A2 /* ShopSwift */,
 				F10E72252DF77F6D0035A1A2 /* ShopSwiftTests */,
-				F10E722F2DF77F6D0035A1A2 /* ShopSwiftUITests */,
 				F10E72162DF77F680035A1A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,9 +146,6 @@
 			);
 			dependencies = (
 				F10E722E2DF77F6D0035A1A2 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F10E722F2DF77F6D0035A1A2 /* ShopSwiftUITests */,
 			);
 			name = ShopSwiftUITests;
 			packageProductDependencies = (
